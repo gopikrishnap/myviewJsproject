@@ -21,8 +21,8 @@ export default {
  components:{
     'app-header' : header,
     'app-singup':singup,
-    'app-dashboard':dashboard,
-     'app-welcome':welcome
+    // 'app-dashboard':dashboard,
+    //  'app-welcome':welcome
  }
 
 };
