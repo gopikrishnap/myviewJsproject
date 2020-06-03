@@ -6,13 +6,13 @@
 </div>
 </template>
 <script>
-
+import {mapGetters} from 'vuex'
 export default {
     // props:['counter']
     computed:{
         counter(){
             // return this.$store.state.counter * 2;
-             return this.$store.getters.doubleCounterFunc;
+             return this.$store.getters.doubleCounterFun;
         }
     }
 }
