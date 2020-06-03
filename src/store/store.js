@@ -1,6 +1,6 @@
 import Vue from "vue"
 import Vuex from "vuex"
-// import UserModule from './UserModule/UserModule'
+ import UserModule from './UserModule/userstore'
 Vue.use(Vuex);
 export const store = new Vuex.Store({
   state: {
@@ -61,6 +61,6 @@ export const store = new Vuex.Store({
       }
   },
   modules:{
-    // UserModule
+    //  UserModule
   }
 });
