@@ -5,7 +5,7 @@ import vueResource from 'vue-resource'
 import  axios from 'axios'
 import vuelidate from 'vuelidate'
 import  {routes} from './routes' 
-import {store }from './store/store'
+import {store }from './store/store.js'
 
 axios.defaults.baseURL='https://myvueproject-da50e.firebaseio.com'
 

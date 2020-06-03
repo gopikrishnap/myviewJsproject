@@ -1,9 +1,14 @@
 import Vue from 'vue'
-import vuex from 'vuex'
+import Vuex from 'vuex'
 
-Vue.use(vuex);
-export const store=new vuex.Store({
-state:{
-    counter:0
-}
-})
+Vue.use(Vuex);
+export const store = new Vuex.Store({
+  state: {
+    counter: 0
+  },
+  getters: {
+    doubleCounterFunc : state=> {
+      return state.counter * 2;
+    }
+  }
+});
