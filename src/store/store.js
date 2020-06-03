@@ -1,6 +1,6 @@
-import Vue from "vue";
-import Vuex from "vuex";
-
+import Vue from "vue"
+import Vuex from "vuex"
+// import UserModule from './UserModule/UserModule'
 Vue.use(Vuex);
 export const store = new Vuex.Store({
   state: {
@@ -59,5 +59,8 @@ export const store = new Vuex.Store({
      updatedValue :({commit},payload)=>{
       commit('updatedValue',payload)
       }
+  },
+  modules:{
+    // UserModule
   }
 });
