@@ -5,6 +5,7 @@ import vueResource from 'vue-resource'
 import  axios from 'axios'
 import vuelidate from 'vuelidate'
 import  {routes} from './routes' 
+import {store }from './store/store'
 
 axios.defaults.baseURL='https://myvueproject-da50e.firebaseio.com'
 
@@ -12,7 +13,7 @@ Vue.use(VueRouter);
 Vue.use(vueResource);
 Vue.use(vuelidate);
 // Vue.http.options.root='https://myvueproject-da50e.firebaseio.com/'
-const router=new VueRouter({
+const router = new VueRouter({
   routes,
   mode:'history'
   //mode is for remove # tag in  the URL
@@ -20,6 +21,6 @@ const router=new VueRouter({
 new Vue({
   el: '#app',
   router,
-  mode:'history',
+  store,
   render: h => h(App)
 })

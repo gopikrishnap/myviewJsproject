@@ -9,9 +9,10 @@
 <script>
 
 import header from './components/header/header';
-import singup from './components/auth/singup';
-import dashboard from './components/dashboard/dashboard'
-import welcome from './components/home/welcome'
+// import singup from './components/auth/singup';
+// import dashboard from './components/dashboard/dashboard'
+// import welcome from './components/home/welcome'
+// import vuex from './components/Vuex/Vuex'
 export default {
  data(){
    return{
@@ -20,7 +21,7 @@ export default {
  },
  components:{
     'app-header' : header,
-    'app-singup':singup,
+    // 'app-singup':singup,
     // 'app-dashboard':dashboard,
     //  'app-welcome':welcome
  }

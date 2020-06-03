@@ -43,6 +43,12 @@ const UserEdit=resolve=>{
         resolve(require('./components/user/UserEdit.vue'))
     })
 }
+const vuex=resolve=>{
+    require.ensure(['./components/Vuex/Vuex'],()=>{
+        resolve(require('./components/Vuex/Vuex'))
+    })
+}
+
 
 
 export const routes=[
@@ -55,6 +61,8 @@ export const routes=[
     {path:'',component:UserStart},
     {path:':id',component:UserDeatils},
     {path:':id/edit',component:UserEdit, name :'useredit'}]}, 
+    {path:'/vuex',component:vuex,children:[]}, 
+
     //  {path:'*',redirect:'/'} ,
 ]
 
