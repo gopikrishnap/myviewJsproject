@@ -17,7 +17,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project Axios</a>
+          <!-- <a class="navbar-brand" href="#">Project Axios</a> -->
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -30,6 +30,9 @@
              <router-link to="/instance" tag="li" active-class="active" >
               <a>Instance concept</a>
             </router-link>
+             <router-link to="/filter" tag="li" active-class="active" >
+              <a>Filter concept</a>
+            </router-link>
             <router-link to="/vuex" tag="li" active-class="active" >
               <a>Vuex concept</a>
             </router-link>
@@ -37,7 +40,7 @@
               <a>Signup</a>
             </router-link>
             <router-link to="/signin" tag="li" active-class="active">
-              <a>Sigin In</a>
+              <a>Forms concept</a>
             </router-link>
             <router-link to="/dashboard" tag="li" active-class="active">
               <a>dashboard</a>

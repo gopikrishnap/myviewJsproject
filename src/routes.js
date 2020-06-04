@@ -64,7 +64,11 @@ const basice=resolve=>{
         resolve(require('./components/Conditionals/basice'))
     })
 }
-
+const filter=resolve=>{
+    require.ensure(['./components/filter/filter'],()=>{
+        resolve(require('./components/filter/filter'))
+    })
+}
 export const routes=[
 {path:'/header',component: header, name:'header' },
 {path:'/singup',component:singup,name:'singup'},
@@ -78,8 +82,10 @@ export const routes=[
     {path:'/vuex',component:vuex,children:[]}, 
     {path:'/Directives',component:Directives},
     {path:'/instance',component:instance},
-    {path:'/basice',component:basice}
-
+    {path:'/basice',component:basice},
+    {path:'/filter',component:filter}
+   
+    
     //  {path:'*',redirect:'/'} ,
 ]
 
