@@ -1,5 +1,5 @@
 <template>
-  <div id="Instance" style="margin-top:120px">
+  <div class="container" id="Instance" style="margin-top:120px">
     <h1>{{title}}</h1>
     <p v-if="showparagraph">This is not always visible</p>
     <button class="btn btn-primary" @click="show">Switch-if-else</button>

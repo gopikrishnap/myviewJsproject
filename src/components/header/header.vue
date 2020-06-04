@@ -43,10 +43,10 @@
               <a>Forms concept</a>
             </router-link>
             <router-link to="/dashboard" tag="li" active-class="active">
-              <a>dashboard</a>
+              <a>Created(Get-data)</a>
             </router-link>
             <router-link to="/Welcome" tag="li" active-class="active">
-              <a>Welcome</a>
+              <a>Add-Multi-input</a>
             </router-link>
             <router-link to="/User" tag="li" active-class="active">
               <a>User (Child Routing )</a>

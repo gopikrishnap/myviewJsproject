@@ -1,5 +1,5 @@
 <template>
-  <div id="app" style="margin-top:120px">
+  <div id="app" class="container" style="margin-top:120px">
     <h1 class="colorhead">If else -V-if and V-else</h1>
     <p v-if="show">Hello If candition</p>
     <p v-else>Hello else candition</p>

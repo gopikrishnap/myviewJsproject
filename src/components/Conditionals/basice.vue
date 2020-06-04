@@ -1,5 +1,5 @@
 <template>
-  <div id="app" style="margin-top:120px">
+  <div id="app" class="container" style="margin-top:120px">
     <h4 v-once>{{title}}</h4>
     <hr />
     <h1>
