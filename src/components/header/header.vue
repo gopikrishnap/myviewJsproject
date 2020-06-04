@@ -31,7 +31,7 @@
               <a>Instance concept</a>
             </router-link>
              <router-link to="/filter" tag="li" active-class="active" >
-              <a>Filter concept</a>
+              <a>Filter</a>
             </router-link>
             <router-link to="/vuex" tag="li" active-class="active" >
               <a>Vuex concept</a>
@@ -40,18 +40,28 @@
               <a>Signup</a>
             </router-link>
             <router-link to="/signin" tag="li" active-class="active">
-              <a>Forms concept</a>
+              <a>Forms</a>
             </router-link>
             <router-link to="/dashboard" tag="li" active-class="active">
-              <a>Created(Get-data)</a>
+              <a>Created(Get)</a>
             </router-link>
             <router-link to="/Welcome" tag="li" active-class="active">
-              <a>Add-Multi-input</a>
+              <a>Add-inputs</a>
             </router-link>
             <router-link to="/User" tag="li" active-class="active">
               <a>User (Child Routing )</a>
             </router-link>
+             <router-link to="/Advanced" tag="li" active-class="active">
+              <a>Advanced</a>
+            </router-link>
+             <router-link to="/advanceDirectives" tag="li" active-class="active">
+              <a>A-Directives</a>
+            </router-link>
+             <router-link to="/Wonder" tag="li" active-class="active">
+              <a>Wonder fulQuotes</a>
+            </router-link>
           </ul>
+          
         </div>
         <!--/.nav-collapse -->
       </div>

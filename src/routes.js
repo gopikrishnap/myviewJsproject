@@ -69,6 +69,25 @@ const filter=resolve=>{
         resolve(require('./components/filter/filter'))
     })
 }
+const Appadvanced=resolve=>{
+    require.ensure(['./components/advanced/Appadvanced'],()=>{
+        resolve(require('./components/advanced/Appadvanced'))
+    })
+}
+
+const advanceDirectives=resolve=>{
+    require.ensure(['./components/Conditionals/advanceDirectives'],()=>{
+        resolve(require('./components/Conditionals/advanceDirectives'))
+    })
+}
+const Wonder=resolve=>{
+    require.ensure(['./components/WonderfulQuotes/whome'],()=>{
+        resolve(require('./components/WonderfulQuotes/whome'))
+    })
+}
+
+
+
 export const routes=[
 {path:'/header',component: header, name:'header' },
 {path:'/singup',component:singup,name:'singup'},
@@ -83,8 +102,13 @@ export const routes=[
     {path:'/Directives',component:Directives},
     {path:'/instance',component:instance},
     {path:'/basice',component:basice},
-    {path:'/filter',component:filter}
-   
+    {path:'/filter',component:filter},
+    {path:'/Advanced',component:Appadvanced},
+    {path:'/advanceDirectives',component:advanceDirectives},
+    {path:'/Wonder',component:Wonder},
+
+    
+    
     
     //  {path:'*',redirect:'/'} ,
 ]
