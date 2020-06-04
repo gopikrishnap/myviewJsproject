@@ -21,7 +21,13 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <router-link to="/vuex" tag="li" active-class="active" exact>
+            <router-link to="/Directives" tag="li" active-class="active" exact>
+              <a>Directives</a>
+            </router-link>
+             <router-link to="/instance" tag="li" active-class="active" >
+              <a>Instance concept</a>
+            </router-link>
+            <router-link to="/vuex" tag="li" active-class="active" >
               <a>Vuex concept</a>
             </router-link>
             <router-link to="/singup" tag="li" active-class="active">

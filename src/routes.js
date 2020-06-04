@@ -49,6 +49,16 @@ const vuex=resolve=>{
     })
 }
 
+const Directives=resolve=>{
+    require.ensure(['./components/Conditionals/Directives'],()=>{
+        resolve(require('./components/Conditionals/Directives'))
+    })
+}
+const instance=resolve=>{
+    require.ensure(['./components/Conditionals/instance'],()=>{
+        resolve(require('./components/Conditionals/instance'))
+    })
+}
 
 
 export const routes=[
@@ -62,6 +72,8 @@ export const routes=[
     {path:':id',component:UserDeatils},
     {path:':id/edit',component:UserEdit, name :'useredit'}]}, 
     {path:'/vuex',component:vuex,children:[]}, 
+    {path:'/Directives',component:Directives},
+    {path:'/instance',component:instance}
 
     //  {path:'*',redirect:'/'} ,
 ]
