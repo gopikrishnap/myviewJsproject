@@ -59,7 +59,11 @@ const instance=resolve=>{
         resolve(require('./components/Conditionals/instance'))
     })
 }
-
+const basice=resolve=>{
+    require.ensure(['./components/Conditionals/basice'],()=>{
+        resolve(require('./components/Conditionals/basice'))
+    })
+}
 
 export const routes=[
 {path:'/header',component: header, name:'header' },
@@ -73,7 +77,8 @@ export const routes=[
     {path:':id/edit',component:UserEdit, name :'useredit'}]}, 
     {path:'/vuex',component:vuex,children:[]}, 
     {path:'/Directives',component:Directives},
-    {path:'/instance',component:instance}
+    {path:'/instance',component:instance},
+    {path:'/basice',component:basice}
 
     //  {path:'*',redirect:'/'} ,
 ]

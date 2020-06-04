@@ -1,12 +1,12 @@
 <template>
-  <div id="Instance"  style="margin-top:120px">
+  <div id="Instance" style="margin-top:120px">
     <h1>{{title}}</h1>
     <p v-if="showparagraph">This is not always visible</p>
-    <button class="button" @click="show">Switch-if-else</button>
+    <button class="btn btn-primary" @click="show">Switch-if-else</button>
     <hr class="hr" />
     <h1 class="colorhead">$refs concept</h1>
     <p v-if="showparagraph">This is not always visible</p>
-    <button class="button" @click="showref" ref="Submitbiutton">Switch-if-else</button>
+    <button class="btn btn-primary" @click="showref" ref="Submitbiutton">Switch-if-else</button>
   </div>
 </template>
 <script>

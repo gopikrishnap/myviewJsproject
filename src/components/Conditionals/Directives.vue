@@ -3,7 +3,7 @@
     <h1 class="colorhead">If else -V-if and V-else</h1>
     <p v-if="show">Hello If candition</p>
     <p v-else>Hello else candition</p>
-    <button class="button" @click="show=!show">Switch-if-else</button>
+    <button class="btn btn-primary" @click="show=!show">Switch-if-else</button>
     <hr class="hr" />
     <h1 class="colorhead">If else -V-if and V-else</h1>
     <p v-if="showtemp">Hello If candition</p>
@@ -13,7 +13,7 @@
       <p>inside template</p>
     </template>
     <p v-show="showtemp">Do you also see me</p>
-    <button class="button" @click="showtemp=!showtemp">Switch-show</button>
+    <button class="btn btn-primary" @click="showtemp=!showtemp">Switch-show</button>
     <hr class="hr" />
     <h1 class="colorhead">V-for condition</h1>
     <ul>
@@ -44,7 +44,7 @@
     <ul>
       <h1 v-for="(ingredient,i) in ingredients" v-bind:key="ingredient">{{ingredient}} ({{i}})</h1>
     </ul>
-    <button class="button" @click="ingredients.push('pens')">Push-value</button>
+    <button class="btn btn-primary" @click="ingredients.push('pens')">Push-value</button>
   </div>
 </template>
 

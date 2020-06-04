@@ -21,7 +21,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <router-link to="/Directives" tag="li" active-class="active" exact>
+             <router-link to="/basice" tag="li" active-class="active" exact>
+              <a>Basics</a>
+            </router-link>
+            <router-link to="/Directives" tag="li" active-class="active" >
               <a>Directives</a>
             </router-link>
              <router-link to="/instance" tag="li" active-class="active" >
