@@ -144,7 +144,8 @@
   </div>
 </template>
 <script>
-import Axios from "axios";
+// import Axios from "axios";
+import Axios from "../../axios-auth";
 import {
   required,
   email,

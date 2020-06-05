@@ -37,13 +37,13 @@
               <a>Vuex concept</a>
             </router-link>
             <router-link to="/singup" tag="li" active-class="active">
-              <a>Signup</a>
+              <a>Signup(Axios)</a>
             </router-link>
             <router-link to="/signin" tag="li" active-class="active">
-              <a>Forms</a>
+              <a>Forms (resource)</a>
             </router-link>
             <router-link to="/dashboard" tag="li" active-class="active">
-              <a>Created(Get)</a>
+              <a>Created(Get) Axios</a>
             </router-link>
             <router-link to="/Welcome" tag="li" active-class="active">
               <a>Add-inputs</a>

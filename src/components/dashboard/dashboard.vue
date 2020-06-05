@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import vueAxios from "axios";
+import vueAxios from '../../axios-auth';
 export default {
   created() {
     vueAxios

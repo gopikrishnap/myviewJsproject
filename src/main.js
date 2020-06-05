@@ -7,12 +7,11 @@ import vuelidate from 'vuelidate'
 import { routes } from './routes'
 import { store } from './store/store.js'
 
-axios.defaults.baseURL = 'https://myvueproject-da50e.firebaseio.com'
+// axios.defaults.baseURL = 'https://myvueproject-da50e.firebaseio.com'
 
 Vue.use(VueRouter);
 Vue.use(vueResource);
 Vue.use(vuelidate);
-// Vue.http.options.root='https://myvueproject-da50e.firebaseio.com/'
 
 Vue.directive('highlight', {
   bind(el, binding, vnode) {

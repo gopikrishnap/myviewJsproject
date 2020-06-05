@@ -61,6 +61,6 @@ export const store = new Vuex.Store({
     }
   },
   modules: {
-    //  UserModule
+     // UserModule
   }
 });
