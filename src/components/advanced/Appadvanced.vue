@@ -1,5 +1,5 @@
 <template>
-    <div class="container" style="margin-top:120px">
+    <div class="container">
         <div class="row">
             <div class="col-xs-12">
                 <button @click="selectedComponent = 'appQuote'">Quote</button>

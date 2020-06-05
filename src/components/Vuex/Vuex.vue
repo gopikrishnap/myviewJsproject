@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top:120px" class="container">
+  <div class="container">
     <h1>Vuex</h1>
     <!-- <app-result  :counter="counter"></app-result>
     <hr />

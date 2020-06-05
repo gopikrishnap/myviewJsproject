@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="margin-bottom:150px">
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">

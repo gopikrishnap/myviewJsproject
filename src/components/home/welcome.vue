@@ -1,5 +1,5 @@
 <template>
-  <div style=" margin-top: 79px !important;">
+  <div>
     <form>
       <div class="form-group col-sm-offset-2 col-sm-6" :class="{invalid:$v.email.$error}">
         <label for="exampleInputEmail1">Email address</label>

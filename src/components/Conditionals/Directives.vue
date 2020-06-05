@@ -3,7 +3,9 @@
     <h1 class="colorhead">If else -V-if and V-else</h1>
     <p v-if="show">Hello If candition</p>
     <p v-else>Hello else candition</p>
-    <button class="btn btn-primary" @click="show=!show">Switch-if-else</button>
+    <button class="btn btn-primary" @click="show = !show">
+      Switch-if-else
+    </button>
     <hr class="hr" />
     <h1 class="colorhead">If else -V-if and V-else</h1>
     <p v-if="showtemp">Hello If candition</p>
@@ -13,21 +15,29 @@
       <p>inside template</p>
     </template>
     <p v-show="showtemp">Do you also see me</p>
-    <button class="btn btn-primary" @click="showtemp=!showtemp">Switch-show</button>
+    <button class="btn btn-primary" @click="showtemp = !showtemp">
+      Switch-show
+    </button>
     <hr class="hr" />
     <h1 class="colorhead">V-for condition</h1>
     <ul>
-      <h1 v-for="ingredient in ingredients" :key="ingredient">{{ingredient}}</h1>
+      <h1 v-for="ingredient in ingredients" :key="ingredient">
+        {{ ingredient }}
+      </h1>
     </ul>
     <hr class="hr" />
     <h1 class="colorhead">V-for-index</h1>
     <ul>
-      <h1 v-for="(ingredient,i) in ingredients" :key="ingredient">{{ingredient}} ({{i}})</h1>
+      <h1 v-for="(ingredient, i) in ingredients" :key="ingredient">
+        {{ ingredient }} ({{ i }})
+      </h1>
     </ul>
     <hr class="hr" />
     <h1 class="colorhead">V-for-Template</h1>
     <div>
-      <h1 v-for="(ingredient,i) in ingredients" :key="ingredient">{{ingredient}} ({{i}})</h1>
+      <h1 v-for="(ingredient, i) in ingredients" :key="ingredient">
+        {{ ingredient }} ({{ i }})
+      </h1>
     </div>
     <!-- <template v-for="(ingredient,i) in ingredients"  >
             <h1> {{ingredient}} ({{i}})</h1>
@@ -36,15 +46,21 @@
     <h1 class="colorhead">V-for-object with -key</h1>
     <ul>
       <li v-for="person in persons" :key="person">
-        <div v-for="(value,key,index) in person" :key="value">{{key}} :{{value}} ----- {{index}}</div>
+        <div v-for="(value, key, index) in person" :key="value">
+          {{ key }} :{{ value }} ----- {{ index }}
+        </div>
       </li>
     </ul>
     <hr class="hr" />
     <h1 class="colorhead">V-for-arry with -key</h1>
     <ul>
-      <h1 v-for="(ingredient,i) in ingredients" v-bind:key="ingredient">{{ingredient}} ({{i}})</h1>
+      <h1 v-for="(ingredient, i) in ingredients" v-bind:key="ingredient">
+        {{ ingredient }} ({{ i }})
+      </h1>
     </ul>
-    <button class="btn btn-primary" @click="ingredients.push('pens')">Push-value</button>
+    <button class="btn btn-primary" @click="ingredients.push('pens')">
+      Push-value
+    </button>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="container" style="margin-top:120px">
+  <div class="container">
     <h1>{{welcome |touppercase}} </h1>
     <input type="text" v-model="fiterText" />
     <ul>

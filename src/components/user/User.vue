@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top :150px">
+  <div>
     <h1>Welcome to User page</h1>
     <p>Loaded Id :{{id}}</p>
     <button class="btn btn-primary" @click="goToHomePage">Go TO Sign up</button>
